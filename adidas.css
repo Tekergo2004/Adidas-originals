@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial Narrow', Arial,'Franklin Gothic Medium', sans-serif;
+    background-color: rgb(206, 211, 211);
+}
+
+p {
+    text-align:justify;
+    font-size: 18px
+}
+
+dt {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+dd {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    line-height: 130%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+    line-height: 130%;
+}
+
+a {
+    color: black;
+    font-size: 18px;    
+}
+
+table {
+    text-align: center;
+    font-size: 21px;
+}
+
+husz {
+    text-align: center;
+    font-size: 21px;
+}
+
+.kozepre {
+    text-align: center;
+    font-weight: bold;
+}
