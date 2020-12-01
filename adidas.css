@@ -33,7 +33,8 @@ h3 {
 
 a {
     color: black;
-    font-size: 18px;    
+    font-size: 18px;
+    text-decoration: none;    
 }
 
 table {
