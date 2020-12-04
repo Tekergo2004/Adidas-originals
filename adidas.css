@@ -1,11 +1,21 @@
 body {
     font-family: 'Arial Narrow', Arial,'Franklin Gothic Medium', sans-serif;
-    background-color: rgb(206, 211, 211);
+    background-color: #fff;
+    background-image: url(hatter3.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    border: 15px solid #0170c1;
+    border-radius: 8px;
+}
+
+div {
+    margin: 10px 20px 10px;
+    width: auto;
 }
 
 p {
     text-align:justify;
-    font-size: 18px
+    font-size: 18px;
 }
 
 dt {
@@ -21,33 +31,50 @@ dd {
 h1 {
     text-align: center;
     font-size: 300%;
-    line-height: 130%;
 }
 
 h3 {
     text-align: center;
     font-size: 150%;
     font-style: italic;
-    line-height: 130%;
 }
 
 a {
     color: black;
     font-size: 18px;
-    text-decoration: none;    
+    text-decoration: none;   
 }
 
 table {
     text-align: center;
-    font-size: 21px;
+    font-size: 19px;
+    border: rgb(24, 24, 24);
+    background-color: rgba(0,0,0,0.12);
+    font-weight: 520;
 }
 
-husz {
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+.listaelem {
+    font-size: 24px;
+}
+
+.husz {
     text-align: center;
-    font-size: 21px;
+    font-size: 19px;
 }
 
 .kozepre {
     text-align: center;
     font-weight: bold;
 }
+
+.kiemel{
+    background-color: rgba(255, 255, 255, 0.322);
+}  
