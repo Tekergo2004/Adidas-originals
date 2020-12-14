@@ -39,26 +39,70 @@ h3 {
     font-style: italic;
 }
 
-a {
+a:link {
     color: black;
     font-size: 18px;
     text-decoration: none;   
 }
 
+a:visited {
+    color: black;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#0170c1;
+    transition-duration: 1.2s;
+}
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div ul li {
+    display: inline-block;
+    margin: 25px 100px;
+    padding: 10px;
+    border: 2px solid rgb(24, 24, 24);
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+div ul li:hover {
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+div ul li a:hover {
+    transition-duration: 0.6s;
+    color: rgb(238, 36, 36);
+}
+
+table a:hover {
+    color: white;
+}
+
 table {
     text-align: center;
+    width: 40%;
     font-size: 19px;
-    border: rgb(24, 24, 24);
     background-color: rgba(0,0,0,0.12);
     font-weight: 520;
 }
 
-th {
+table, table th, td {
     padding: 5px;
+    border: 2px solid rgb(24, 24, 24);
+    border-collapse: collapse;
+}
+table td:hover {
+    background-color: rgb(238, 36, 36);
 }
 
-td {
-    padding: 5px;
+img {
+    padding: 80px 60px;
 }
 
 .listaelem {
