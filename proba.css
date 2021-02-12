@@ -35,9 +35,9 @@ a:visited {
     text-decoration:none;    
 }
 
-a:hover {
+div span a:hover {
     transition-duration: 1s;
-    color:  rgb(255, 0, 0);
+    filter: invert(100%);
     text-decoration: none;
 }
 
@@ -82,8 +82,8 @@ table th:hover{
 }
 
 #bent {
-    text-align: center;
     font-size: 19px;
+    padding-left: 50px;
 }
 
 .kozepre {
@@ -98,7 +98,7 @@ table th:hover{
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.486);
     padding: 10px;
-    margin:50px;
+    margin: 10px;
     width: 200px;
     display: inline-block;
     text-align: center;
@@ -106,8 +106,8 @@ table th:hover{
 .gombocska:hover {
     border: 1px solid white;
     border-radius: 5px;
-    color: rgb(255, 0, 0);
     transition-duration: 1s;
+    filter: invert(100%)
 }
 .gombdoboz {
     display:flex;
@@ -115,6 +115,7 @@ table th:hover{
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
+    padding: 10px 50px 50px 50px;
 }
 
 .husz {
@@ -124,4 +125,15 @@ table th:hover{
 
 .listaelem {
     font-size: 24px;
+}
+
+.abehuzas {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+a.asd:hover {
+    filter: invert(100%);
+    transition-duration: 2s;
 }

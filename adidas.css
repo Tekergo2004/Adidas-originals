@@ -16,6 +16,8 @@ div {
 p {
     text-align:justify;
     font-size: 18px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 dt {
@@ -122,3 +124,5 @@ img {
 .kiemel{
     background-color: rgba(255, 255, 255, 0.322);
 }  
+
+

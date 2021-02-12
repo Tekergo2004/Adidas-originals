@@ -1,0 +1,163 @@
+body {
+    background-color: #56595f;
+    background-image: url("alap.mp4");
+    background-position: center;
+    background-size: 100%;	
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(253, 255, 234, 0.905);
+}
+
+video {
+    position: fixed;
+    z-index: -100;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;;
+}
+
+h3 {
+    text-align: center;
+    font-size: 150%;;
+}
+
+img {
+    padding: 80px 75px;
+}
+
+a:link {
+    color: rgba(253, 255, 234, 0.733);
+    font-size: 19px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 247, 0);
+    font-size: 19px;
+    text-decoration:none;    
+}
+
+div span a:hover {
+    transition-duration: 1s;
+    filter: invert(100%);
+    text-decoration: none;
+}
+
+table a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition-duration: 1.3s;
+}
+
+table {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: 19px;
+    background-color: rgba(0,0,0,0.12);
+    font-weight: 520;
+
+}
+
+table, table th, td {
+    padding: 5px;
+    border: 2px solid rgb(24, 24, 24);
+    border-collapse: collapse;
+}
+
+table td:hover {
+    background-color: rgb(238, 36, 36);
+    color:black;
+    transition-duration: 1s;
+}
+
+table th:hover{
+    background-color:rgb(0, 255, 0);
+    color:black;
+    transition-duration: 1s;
+}
+
+#header {
+    background: url('fejlec.jpg') no-repeat center;
+    height: 360px;
+    max-width: 1920px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bent {
+    font-size: 19px;
+    padding-left: 50px;
+}
+
+.kozepre {
+    text-align: center;
+    font-weight: bold;
+}
+
+.gombocska {
+    font-family:arial;
+    font-size: 19px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+.gombocska:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    transition-duration: 1s;
+    filter: invert(100%)
+}
+.gombdoboz {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px 50px 50px 50px;
+}
+
+.husz {
+    text-align: center;
+    font-size: 19px;
+}
+
+.listaelem {
+    font-size: 24px;
+}
+
+.abehuzas {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+a.asd:hover {
+    filter: invert(100%);
+    transition-duration: 2s;
+}
+
